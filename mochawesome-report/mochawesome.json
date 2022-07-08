@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-21T10:43:38.324Z",
+    "end": "2022-06-21T10:44:17.092Z",
+    "duration": 38768,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "51756bab-1cc2-4c81-8777-b468a00772d1",
+      "title": "",
+      "fullFile": "cypress/integration/WELLV2Project_UIAutomation/F01-Login.feature",
+      "file": "cypress/integration/WELLV2Project_UIAutomation/F01-Login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2e733d71-4e5c-48ec-914c-7a7105e783d8",
+          "title": "F01-WELLCertified login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login to application with Invalid user credentials",
+              "fullTitle": "F01-WELLCertified login Login to application with Invalid user credentials",
+              "timedOut": null,
+              "duration": 11248,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d91f6951-7972-4946-a852-919233b53a8b",
+              "parentUUID": "2e733d71-4e5c-48ec-914c-7a7105e783d8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login to application with valid user credentials",
+              "fullTitle": "F01-WELLCertified login Login to application with valid user credentials",
+              "timedOut": null,
+              "duration": 13121,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "58102d0b-e8fb-42fc-9a64-cc68891aca72",
+              "parentUUID": "2e733d71-4e5c-48ec-914c-7a7105e783d8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d91f6951-7972-4946-a852-919233b53a8b",
+            "58102d0b-e8fb-42fc-9a64-cc68891aca72"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 24369,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
